@@ -28,7 +28,7 @@ app.post("/",(req,res)=>{
     const url="https://us1.api.mailchimp.com/3.0/lists/242e503099";
     const options={
         method:"POST",
-        auth:"pavan:1d7205d4cecde6fe488ec83c341a4e736-us1"
+        auth:"pavan:d7205d4cecde6fe488ec83c341a4e736-us1"
     }
     const request=https.request(url,options,(response)=>{
        if(response.statusCode==200){
